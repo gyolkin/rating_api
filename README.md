@@ -1,4 +1,4 @@
-# Простой блог на Django
+# Сервис оценки произведений на Django (DRF)
 [![Version_of_Python](https://img.shields.io/badge/python-3.7-orange?style=flat&logo=python&logoColor=white)](#)
 [![Version_of_Django](https://img.shields.io/badge/django-3.2-green?style=flat&logo=django&logoColor=white)](#)
 [![Docker_Compose](https://img.shields.io/badge/docker-compose-blue?style=flat&logo=docker&logoColor=white)](#)
