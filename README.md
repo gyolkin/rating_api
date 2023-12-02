@@ -2,10 +2,10 @@
 [![Version_of_Python](https://img.shields.io/badge/python-3.7-orange?style=flat&logo=python&logoColor=white)](#)
 [![Version_of_Django](https://img.shields.io/badge/django-3.2-green?style=flat&logo=django&logoColor=white)](#)
 [![Docker_Compose](https://img.shields.io/badge/docker-compose-blue?style=flat&logo=docker&logoColor=white)](#)
-[![Github Actions](https://img.shields.io/badge/github-actions-brightgreen?style=flat&logo=github&logoColor=white)](https://github.com/gyolkin/yamdb)
+[![Github Actions](https://img.shields.io/badge/github-actions-brightgreen?style=flat&logo=github&logoColor=white)](https://github.com/gyolkin/rating_api)
 
 ## Описание
-«YaMDB» — это API, построенное на Django Rest Framework. Пользователям, в зависимости от выданных прав, доступны возможности просмотра, создания и редактирования жанров, категорий (музыка, фильмы), самих произведений и отзывов к ним. Отзывы могут быть прокомментированы каждым пользователем. Оценка пользователя может варьироваться от 1 до 10, при получении произведения будет отображаться общая (средняя) оценка.
+Это API, построенное на Django Rest Framework. Пользователям, в зависимости от выданных прав, доступны возможности просмотра, создания и редактирования жанров, категорий (музыка, фильмы), самих произведений и отзывов к ним. Отзывы могут быть прокомментированы каждым пользователем. Оценка пользователя может варьироваться от 1 до 10, при получении произведения будет отображаться общая (средняя) оценка.
 
 ## Регистрация
 В процессе получения токена авторизации необходимо сделать POST-запрос, предоставив почтовый код подтверждения вида *bn06q5-d96eb8465ae46930926086160d053c13*. Поскольку «боевой» почтовый сервер не настроен, все письма появляются локально в папке *sent_emails* в корне проекта. Письмо с кодом подтверждения во время тестирования проекта следует искать именно там.
